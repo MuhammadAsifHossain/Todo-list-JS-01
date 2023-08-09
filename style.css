@@ -1,0 +1,75 @@
+  html {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  background-color: coral;
+  color: floralwhite;
+  border-radius: 10px;
+}
+#input{
+  background-color: beige;
+  color: brown;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid coral;
+  border-radius: 10px;
+
+}
+.btn {
+  
+  color: floralwhite;
+  background-color: coral;
+  padding: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+form {
+  display: flex;
+ 
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: coral;
+  color: floralwhite;
+}
+li button {
+  text-decoration: none;
+  background-color: floralwhite;
+  color: coral;
+  padding: 5px 5px;
+  border:none;
+  border-radius: 50px;
+  position: relative;
+  right: 10px;
+  display: flex;
+  margin-left: 3px;
+  align-items: center;
+  
+}
+li span {
+  flex:1;
+  margin-right: 10px;
+  text-decoration: none;
+}
+li input{
+  background-color: floralwhite;
+  color: brown;
+  padding: 10px;
+  border: 1px solid coral;
+  border-radius: 10px;
+
+}
